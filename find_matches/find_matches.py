@@ -18,7 +18,7 @@ class FindMatches(object):
         # Check if matching_type input is valid
         self.matching_type = matching_type.lower()
         if self.matching_type not in ['email', 'phone', 'email_phone']:
-            print "Please use a valid matching type: 'email', 'phone', or 'email_phone'."
+            print ("Please use a valid matching type: 'email', 'phone', or 'email_phone'.")
 
         # Initialize variables for later assignment
         self.input_file = input_file
